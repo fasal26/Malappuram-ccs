@@ -13,7 +13,7 @@
 
 .header-menu-wrapper{
   display: flex;
-  gap: 65px;
+  gap: 4.06rem; /* 65px converted to rem */
   align-items: center;
 }
 
@@ -25,20 +25,20 @@
 .header-details-wrapper{
   flex-direction: column;
   display: flex;
-  gap: 45px;
+  gap: 2.81rem; /* 45px converted to rem */
   display: inline-flex;
   max-width: 43%;
   padding: 6rem 8rem;
 }
 
 .header-details-wrapper > h1{
-  font-size: 50px;
+  font-size: 3.12rem; /* 50px converted to rem */
   font-style: italic;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); /* 0px 4px 4px converted to rem */
 }
 
 .header-details-wrapper > h5{
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem; /* 20px converted to rem */
   font-style: italic;
 }
