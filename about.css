@@ -49,7 +49,7 @@
 
 .abtus-card{
   max-width: 48%;
-  background: var(--primary);
+  background: linear-gradient(180deg, #EC268F 0%, #D28BAD 100%);
   border-radius: 20px;
   padding: 40px;
   color: white;
