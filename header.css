@@ -42,3 +42,35 @@
   font-size: 1.25rem; /* 20px converted to rem */
   font-style: italic;
 }
+
+@media (min-width: 900px) and (max-width: 1600px) {
+  .header-details-wrapper{
+    max-width: 55%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-wrapper{
+    height: 47rem;
+    background-position: right;
+  }
+
+  .header-menu-wrapper, .header-donate-btn{
+    display: none;
+  }
+
+  .header-details-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    max-width: 100%;
+  }
+
+  .header-details-wrapper > h1{
+    text-align: center;
+  }
+
+  .header-details-wrapper > h5{
+    text-align: center;
+  }
+}

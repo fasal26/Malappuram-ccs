@@ -4,34 +4,34 @@
   padding-bottom: 80px;
 }
 
-.services-wrapper > h2{
-  font-size: 35px;
+.services-wrapper > h2 {
+  font-size: 2.1875rem; /* 35px converted to rem */
   font-weight: 500;
 }
 
-.service-content-wrapper{
+.service-content-wrapper {
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
 }
 
-.service-desc-wrapper{
+.service-desc-wrapper {
   flex: 0 0 46%;
   flex-direction: column;
   display: flex;
   justify-content: space-between;
 }
 
-.service-desc-wrapper > p{
-  font-size: 20px;
+.service-desc-wrapper > p {
+  font-size: 1.25rem; /* 20px converted to rem */
   font-weight: 300;
 }
 
-.service-img-wrappper{
+.service-img-wrappper {
   position: relative;
 }
 
-.services-bkgrnd-container{
+.services-bkgrnd-container {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -42,7 +42,7 @@
   border-radius: 0 18px 0 18px;
 }
 
-.services-widget-wrapper{
+.services-widget-wrapper {
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -50,36 +50,36 @@
   padding-top: 150px;
 }
 
-.services-widget-container{
+.services-widget-container {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   gap: 60px 0;
 }
 
-.services-widget-item{
+.services-widget-item {
   display: flex;
   flex: 0 0 49%;
   gap: 20px;
 }
 
-.widget-item-desc{
+.widget-item-desc {
   max-width: 68%;
 }
 
-.widget-item-desc > h3{
-  font-size: 18px;
+.widget-item-desc > h3 {
+  font-size: 1.125rem; /* 18px converted to rem */
   font-weight: 500;
   font-style: italic;
 }
 
-.widget-item-desc > p{
-  font-size: 16px;
+.widget-item-desc > p {
+  font-size: 1rem; /* 16px converted to rem */
   font-weight: 300;
   font-style: italic;
 }
 
-.services-icon-container{
+.services-icon-container {
   background: var(--primary);
   width: 80px;
   height: 80px;
@@ -89,7 +89,7 @@
   align-items: center;
 }
 
-.donation-wrapper{
+.donation-wrapper {
   background: url('/donate.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,4 +111,58 @@
 
 .donation-content-wrapper > button {
   width: 15%;
+}
+
+@media (max-width: 480px) {
+
+  .services-wrapper{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .services-wrapper > h2{
+    text-align: center;
+  }
+
+  .service-content-wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service-img-wrappper{
+    height: 20rem;
+  }
+
+  .service-img-wrappper > figure, .service-img-wrappper > figure > img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .services-bkgrnd-container {
+    top: 14px;
+    left: 15px;
+    border-radius: 0 14px 0 14px;
+  }
+
+  .services-widget-wrapper{
+    padding-top: 100px;
+  }
+
+  .services-widget-container{
+    flex-direction: column;
+    width: 100%;
+    gap: 30px 0;
+  }
+
+  .donation-wrapper{
+    background-position: center;
+  }
+
+  .donation-content-wrapper{
+    padding: 3rem 1rem;
+  }
+
+  .donation-content-wrapper > button {
+    width: 40%;
+  }
 }

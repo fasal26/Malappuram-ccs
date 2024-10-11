@@ -116,3 +116,41 @@
 .member-dtls > p {
   font-size: 1.0625rem; /* 17px converted to rem */
 }
+
+@media (max-width: 480px) {
+  .abtus-wrapper{
+    padding: 2rem;
+  }
+
+  .abtus-content-wrapper{
+    flex-direction: column;
+  }
+
+  .abtus-wrapper > h2{
+    text-align: center;
+  }
+
+  .abtus-details-title > h4{
+    max-width: 100%;
+  }
+
+  .abtus-card{
+    max-width: 100%;
+  }
+
+  .abtus-img-wrapper {
+    height: 43rem;
+}
+
+  .img-bkgrnd-container {
+    top: 1.5rem;
+    left: 1.2rem;
+    border-radius: 0 1.1875rem 0 1.1875rem;
+  }
+
+  .members-wrapper{
+    margin-top: 7rem;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

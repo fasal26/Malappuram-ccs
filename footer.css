@@ -50,3 +50,44 @@
 .footer-wrapper > p{
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .footer-container{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-contact-wrapper{
+    justify-content: space-between;
+  }
+
+  .information-wrapper{
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .information-wrapper > h5{
+    text-align: center;
+  }
+
+  .info-items{
+    word-wrap: break-word;
+  }
+
+  .footer-wrapper{
+    padding-top: 40px;
+  }
+
+  .footer-logo-wrapper{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo-wrapper > p{
+    text-align: center;
+  }
+
+  .footer-wrapper > hr {
+    margin: 50px 0 25px;
+  }
+}

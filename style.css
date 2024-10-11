@@ -57,4 +57,8 @@ h1,h2{
   html {
     font-size: 12px; /* Further reduce the root font size */
   }
+
+  .content-padding{
+    padding: 2rem 2rem;
+  }
 }
