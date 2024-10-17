@@ -26,11 +26,33 @@
     <div id="app">
       <div>
         <div class="header-wrapper">
+          <div class="sa-dialog" id="dlg" >
+            <div class="sa-dialog-body sa-fixed-right">
+                <p>Malappuram Cancer Care Society</p>
+                <div class="dialog-items-container">
+                    <div class="dialog-items doc-flex" id="bgr-home">
+                        <img src="/home.svg" alt="">
+                        <p>Home</p>
+                    </div>
+                    <div class="dialog-items doc-flex" id="bgr-abt">
+                        <img src="/about.svg" alt="">
+                        <p>About Us</p>
+                    </div>
+                    <div class="dialog-items doc-flex" id="bgr-contact">
+                        <img src="/contact-mail.svg" alt="">
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
           <div class="header-cnt-wrapper content-padding">
             <div class="header-logo">
               <div>
                 <figure><img src="/Logo.png" /></figure>
               </div>
+            </div>
+            <div class="burger">
+              <img src="/menu.svg" alt="menu" class="navbar_menu" id="burger" style="width: 25px;">
             </div>
             <div class="header-menu-wrapper">
               <p>Home</p>
@@ -53,7 +75,7 @@
             </div>
           </div>
         </div>
-        <div class="abtus-wrapper">
+        <div class="abtus-wrapper" id="about-us">
           <h2>About Us</h2>
           <div class="abtus-content-wrapper">
             <div class="abtus-details-wrapper">
@@ -283,21 +305,20 @@
             <button>Donate Now</button>
           </div>
         </div>
-        <div class="form-wrapper content-padding">
+        <div class="form-wrapper content-padding" id="form">
           <h2>Connect with us</h2>
           <div class="form-container">
             <div class="form-row">
-              <input type="text" class="form-input" placeholder="First Name">
-              <input type="text" class="form-input" placeholder="Last Name">
+              <input type="text" class="form-input" placeholder="First Name" id="firstName">
+              <input type="text" class="form-input" placeholder="Last Name" id="LastName">
             </div>
             <div class="form-row">
-              <input type="email" class="form-input" placeholder="Your Email">
-              <input type="text" class="form-input" placeholder="Phone Number">
+              <input type="text" class="form-input" placeholder="Phone Number" id="userPh">
             </div>
             <div class="form-row textarea">
-              <textarea class="form-textarea" placeholder="Your Message"></textarea>
+              <textarea class="form-textarea" placeholder="Your Message" id="userMsg"></textarea>
             </div>
-            <div class="form-row form-btn">
+            <div class="form-row form-btn" id="sbmt-btn">
               <button>Send Message</button>
             </div>
           </div>

@@ -74,4 +74,9 @@
   .goal-content-wrapper{
     gap: 40px;
   }
+
+  .goal-img-wrapper {
+    flex: 1;
+    height: 390px;
+  }
 }
