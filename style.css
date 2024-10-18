@@ -158,7 +158,7 @@ h2 {
 }
 
 /* For very small screens */
-@media (max-width: 480px) {
+@media (max-width: 599px) {
   .burger{
     display: block;
   }
@@ -169,5 +169,19 @@ h2 {
 
   .content-padding {
     padding: 2rem 2rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  html {
+    font-size: 14px; /* Further reduce the root font size */
+  }
+
+  .burger{
+    display: block;
+  }
+
+  .content-padding {
+    padding: 2rem 4rem;
   }
 }

@@ -117,7 +117,7 @@
   font-size: 1.0625rem; /* 17px converted to rem */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 599px) {
   .abtus-wrapper{
     padding: 2rem;
   }
@@ -152,5 +152,62 @@
     margin-top: 7rem;
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .abtus-wrapper{
+    padding: 4rem;
+  }
+
+  .abtus-content-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abtus-wrapper > h2{
+    text-align: center;
+  }
+
+  .abtus-details-title > h4{
+    max-width: 100%;
+  }
+
+  .abtus-card{
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .abtus-img-wrapper {
+    height: 70rem;
+    width: 60%;
+  }
+
+  .img-bkgrnd-container {
+    top: 1.5rem;
+    left: 1.2rem;
+    border-radius: 0 1.1875rem 0 1.1875rem;
+  }
+
+  .members-wrapper{
+    margin-top: 7rem;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .member-card-img-wrapper {
+    height: 35rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .member-dtls{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .member-card-img-wrapper > figure > img {
+    object-fit: fill;
   }
 }

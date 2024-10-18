@@ -110,10 +110,10 @@
 }
 
 .donation-content-wrapper > button {
-  width: 15%;
+  width: 28%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
 
   .services-wrapper{
     padding-top: 40px;

@@ -49,7 +49,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 599px) {
   .header-wrapper{
     height: 47rem;
     background-position: right;
@@ -72,5 +72,35 @@
 
   .header-details-wrapper > h5{
     text-align: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .header-menu-wrapper, .header-donate-btn{
+    display: none;
+  }
+
+  .header-wrapper{
+    height: 47rem;
+    background-position: right;
+  }
+
+  .header-details-wrapper {
+    max-width: 100%;
+    padding: 2rem 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-details-wrapper > h1{
+    text-align: center;
+  }
+
+  .header-details-wrapper > h5{
+    text-align: center;
+  }
+
+  .burger{
+    display: block;
   }
 }

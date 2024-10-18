@@ -54,7 +54,7 @@
   border-radius: 0 35px 0 35px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
 
   .goal-wrapper{
     flex-direction: column;
