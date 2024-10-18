@@ -10,11 +10,35 @@
 // setupCounter(document.querySelector('#counter'))
 
 let displayFlg = document.getElementById('dlg')
-let brgrHome = document.getElementById('bgr-home')
-let brgrAbt = document.getElementById('bgr-abt')
-let brgrContact = document.getElementById('bgr-contact')
 let menu = document.getElementById('burger')
 let sbmtBtn = document.getElementById('sbmt-btn')
+
+const brgrHome = document.querySelectorAll('.bgr-home');
+const brgrAbt = document.querySelectorAll('.bgr-abt')
+const brgrContact = document.querySelectorAll('.bgr-contact')
+const brgrSrvc = document.querySelectorAll('.bgr-svc')
+
+brgrHome.forEach(brgr => {
+  brgr.addEventListener('click', () => {
+    scrollInto('app')
+  });
+});
+brgrAbt.forEach(brgr => {
+  console.log(brgr,'bgr')
+  brgr.addEventListener('click', () => {
+    scrollInto('about-us')
+  });
+});
+brgrContact.forEach(brgr => {
+  brgr.addEventListener('click', () => {
+    scrollInto('form')
+  });
+});
+brgrSrvc.forEach(brgr => {
+  brgr.addEventListener('click', () => {
+    scrollInto('services')
+  });
+});
 
 document.addEventListener("click", (evt) => {
   if(evt.target == menu){
@@ -26,10 +50,6 @@ document.addEventListener("click", (evt) => {
     document.body.style.overflow = 'auto'
   }
 })
-
-brgrHome.addEventListener("click", () => scrollInto('app'))
-brgrAbt.addEventListener("click", () => scrollInto('about-us'))
-brgrContact.addEventListener("click", () => scrollInto('form'))
 
 function scrollInto(id){
   if(id){
