@@ -6,9 +6,9 @@
 }
 
 .goal-img-wrapper {
-  flex: 0 0 50%;
+  flex: 0 0 38%;
   position: relative;
-  height: 51rem;
+  height: 37rem;
 }
 
 .goal-img-wrapper > figure {
