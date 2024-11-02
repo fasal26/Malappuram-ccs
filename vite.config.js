@@ -1,3 +1,3 @@
 export default {
-  base: '/Malappuram-ccs/',  // Set this to the repo name
+  // base: '/Malappuram-ccs/',  // Set this to the repo name
 };
